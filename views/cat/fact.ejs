@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+
+<% if (catData) { %>
+    <h2><%= catData.fact %></h2>
+<% } else { %>
+    <h2>Cat Fact Broken</h2>
+<% } %>
+<a href="/cats/fact">"Get another cat fact"</a>
+</head>
+<body>
